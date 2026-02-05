@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /* border jo hai vo box me inteerior hoga*/
+}
+
+.navbar
+{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+/* agar ham parent ko width ,height nahi denge to css me child ka width height bhi zero ho jata hai to image show nahi hogi */
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+/* to make hover border */
+    border:  1.5px solid white;
+}
+
+
+/* BOX 2  */
+
+.add-first{
+color:#cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+
+.add-sec{
+font-size: 1rem;
+margin-bottom: 3px;
+}
+
+.add-icon{
+    display: flex;
+    
+    align-items: center;
+}
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height:40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select
+{
+background-color: #f3f3f3;
+width: 50px;
+text-align: center;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+border: none;
+}
+
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(215, 158, 89);
+    border-bottom-right-radius: 4px;
+
+    border-top-right-radius:4px ;
+}
+
+/* box 4 */
+
+span{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+
+/* box5 */
+
+.nav-cart i {
+    font-size: 30px;
+
+
+}
+.nav-cart {
+    display:flex;
+    font-size:0.85 rem;
+    font-weight:700;
+}
+
+
+/* panels  */
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p{
+    display: inline;
+    margin-left: 15px;
+
+}
+
+.panel-opt{
+    width:70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size:0.9 rem;
+    font-weight: 700;
+
+}
+
+
+/* hero-section */
+
+.hero-section{
+
+    /* ye image dekhine nahi jab tak ham isse koi height and weidth nahi detet  */
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    /* backgroun size ye image distord nahi hoti aur container ka pura size le leti hai  */
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* flex end work according to conatiner and  end work acoordin to language  */
+
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+
+/* shop-section */
+
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+}
+.box-img{
+    height: 300px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.box-con h2{
+    margin-bottom: 10px;
+    
+}
+.box-con p{
+    margin-bottom: 10px;
+    color: #007185;
+}
+.box-con{
+    /* margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem; */
+margin: 1rem;
+}
+
+/* footer1 */
+
+footer{
+    margin-top: 15px;
+}
+
+.footer-p1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footer-p2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+    
+
+}
+
+ul{
+    margin-top: 20px;;
+}
+
+ul a{
+
+    
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+    
+    /* sare <a> tag block ki form me aajaygene  */
+}
+
+.footer-p3{
+    background-color: #222f3d;
+    color: white;
+    border: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("amazon_logo.png");
+     background-size: contain; /* cover की जगह contain */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    width: 150px;
+    
+}
+
+.footer-p4 {
+    background-color: #131a22;   
+    color: #ffcc00;
+    text-align: center;     
+    font-size: 12px;             
+    padding: 10px;               
+    border-top: 0.5px solid #444; 
+}
